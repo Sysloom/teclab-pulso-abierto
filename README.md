@@ -109,12 +109,13 @@ El proyecto incluye `vercel.json` con la configuración necesaria:
 - Directorio de salida: `dist`
 - Reescritura de rutas del cliente hacia `index.html`, para que una ruta de detalle como `/criptomonedas/bitcoin` funcione al abrirse directamente o al recargarse.
 
-URL de la aplicación publicada: _pendiente de completar después del despliegue._
+URL de la aplicación publicada: https://teclab-pulso-abierto.vercel.app/
 
 ## Verificación final
 
 - Pruebas ejecutadas: `npm test` — 7 pruebas aprobadas en 3 archivos.
 - Build generado correctamente: `npm run build` — salida en `dist/`.
 - Preview comprobado: `npm run preview` — aplicación cargada, consulta de precios real, navegación al detalle, acceso directo y recarga de la ruta, favoritos persistentes, formulario validado y vista móvil sin desborde horizontal.
-- Despliegue realizado: _pendiente de completar después del despliegue en Vercel._
+- Sitio publicado comprobado: https://teclab-pulso-abierto.vercel.app/ — carga correcta, consulta real a CoinGecko, navegación al detalle, acceso directo y recarga de `/criptomonedas/bitcoin`, favoritos persistentes, formulario funcional y vista móvil, sin errores en consola ni en el panel de red.
+- Despliegue realizado: Vercel — https://teclab-pulso-abierto.vercel.app/ (rama `main`, estado Ready).
 - Fecha de verificación: 23 de noviembre de 2026.
