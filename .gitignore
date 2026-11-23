@@ -1,0 +1,13 @@
+node_modules/
+dist/
+coverage/
+*.log
+*.tsbuildinfo
+
+# Archivos locales y secretos
+Informe_Tecnico.docx
+.env
+.env.*
+!.env.example
+.vercel/
+.DS_Store
